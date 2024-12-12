@@ -1,0 +1,109 @@
+body {
+    background-image: url("img/slika.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+    width: 20%;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    font-family: moj_font;
+}
+@font-face {
+    font-family: moj_font;
+    src: url("/font/FjallaOne-Regular.ttf");
+}
+nav ul li a:hover {
+    color: lightblue;
+    transition: 0.5s;
+}
+form input {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    letter-spacing: 1px;
+    padding: 0px 5px;
+}
+form input:focus {
+    background-color: wheat;
+}
+form button {
+    width: 100px;
+    height: 50px;
+    background-color: dimgray;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid white;
+}
+form button:hover {
+    background-color: blue;
+}
+p {
+    color: white;
+    margin: 80px 0px;
+    border: 2px dashed blue;
+    text-align: center;
+    font-weight: bolder;
+}
+#slova {
+    display: grid;
+    gap: 8px;
+}
+.slovo {
+    margin-top: 20px;
+    font-size: 55px;
+    color: #444;
+    text-transform: uppercase;
+    transition: color 0.5s ease-in-out;
+    animation: lightUp 5s infinite;
+    opacity: 0.8;
+    text-align: center;
+}
+@keyframes lightUp {
+    0%, 100% {color: rebeccapurple;}
+    50% {color: #fff;}
+    75% {color: cornflowerblue;}
+ }
+.slovo:nth-child(1) {
+    animation-delay: 0s;
+}
+.slovo:nth-child(2) {
+    animation-delay: 0.5s;
+}
+.slovo:nth-child(3) {
+    animation-delay: 1s;
+}
+.slovo:nth-child(4) {
+    animation-delay: 1.5s;
+}
+.slovo:nth-child(5) {
+    animation-delay: 2s;
+}
+.slovo:nth-child(6) {
+    animation-delay: 2.5s;
+}
+.slovo:nth-child(7) {
+    animation-delay: 3s;
+}
+.slovo:nth-child(8) {
+    animation-delay: 3.5s;
+}
+.slovo:nth-child(9) {
+    animation-delay: 4s;
+}
+.slovo:nth-child(10) {
+    animation-delay: 4.5s;
+}
